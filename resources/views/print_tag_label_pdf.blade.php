@@ -35,7 +35,7 @@
 <page>
     <div class="lable">
         <div class="asset_nember">{{$data['asset_number']}}</div>
-        <div class="title">百洋医药集团固定资产标签</div>
+        <div class="title">固定资产标签</div>
         <div class="data">供货公司：{{$data['vendor']['name']}}</div>
         <div class="data">供货时间：{{$data['purchased']}}</div>
     </div>
