@@ -15,5 +15,5 @@
 ### 部署时注意事项：
 
 1. 调整php配置中的max_execution_time、memory_limit。如果用户较多，同步时间较长，这两项值过小会导致同步中断或失败。这两项没有细致测试，我粗暴的配置为memory_limit=4096M、max_execution_time=1000（单位秒），测试环境用户约5300+、OU约940+，足够满足要求。
-2. 假如使用宝塔部署，php扩展需安装ldap和fileinfo。
+2. 假如使用宝塔部署，php扩展需安装ldap、zip和fileinfo。
 
